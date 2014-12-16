@@ -11,6 +11,8 @@ FFVII.BattleType = {
 
 FFVII.Data = {
     progress_game = 0,
+    moving_linear = false,
+    moving_jump = false,
 
     money = 0,
 
@@ -22,6 +24,20 @@ FFVII.Data = {
     battle_love_tifa = 100,
     battle_love_yuffie = 100,
     battle_love_barret = 100,
+    elevtr1_floor = 1,
+    m1_door1_open = false,
+    m1_door2_open = false,
+    m1_jessie_unstuck = true,
+    m1_bomb_set = false,
+    m1_226 = false,
+    m1_times_up = false,
+    item_sector1_chest1 = false,
+}
+
+
+
+FFVII.Script = {
+    is_executing = false,
 }
 
 
