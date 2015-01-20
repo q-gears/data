@@ -3,7 +3,7 @@ if UiContainer == nil then UiContainer = {} end
 
 
 UiContainer.BeginMenu = {
-    position = 6,
+    position = 1,
     position_total = 6,
 
 
@@ -11,7 +11,7 @@ UiContainer.BeginMenu = {
     on_start = function( self )
         local cursor = ui_manager:get_widget( "BeginMenu.Container.Cursor" )
         cursor:set_default_animation( "Position" .. self.position )
-
+		ui_manager:get_widget( "BeginMenu" ):set_visible( true )
         return 0
     end,
 
