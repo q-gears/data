@@ -4,7 +4,8 @@ if UiContainer == nil then UiContainer = {} end
 
 UiContainer.BeginMenu = {
     position = 1,
-    position_total = 6,
+    position_total = 8,
+
 
 
 
@@ -54,6 +55,18 @@ UiContainer.BeginMenu = {
 					script:request_end_sync( Script.UI, "BeginMenu", "hide", 0 )
 					console( "camera_free true" )
 					world_map_module:init()                
+                elseif self.position == 7 then
+                    load_field_map_request( "ffvii_startmap", "" )
+                    console( "camera_free false" )
+                    console( "debug_walkmesh false" )
+                    script:request_end_sync( Script.UI, "BeginMenu", "hide", 0 )
+                    FFVII.MenuSettings.pause_available = true
+                elseif self.position == 8 then
+                    load_field_map_request( "ffvii_nmkin_2", "Spawn_elevtr1" )
+                    console( "camera_free false" )
+                    console( "debug_walkmesh false" )
+                    script:request_end_sync( Script.UI, "BeginMenu", "hide", 0 )
+                    FFVII.MenuSettings.pause_available = true
                 end
             elseif button == "Down" then
                 self.position = self.position + 1
