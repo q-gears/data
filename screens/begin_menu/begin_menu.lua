@@ -32,7 +32,7 @@ UiContainer.BeginMenu = {
                     script:request_end_sync( Script.UI, "BeginMenu", "hide", 0 )
                     console( "camera_free true" )
                     console( "debug_walkmesh true" )
-                    map( "ffvii_battle_300" )
+                    map( "test_3" )
                     FFVII.MenuSettings.pause_available = true
                 elseif self.position == 3 then
                     script:request_end_sync( Script.UI, "BeginMenu", "hide", 0 )
