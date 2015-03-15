@@ -4,8 +4,7 @@ if UiContainer == nil then UiContainer = {} end
 
 UiContainer.BeginMenu = {
     position = 1,
-    position_total = 8,
-
+    position_total = 10,
 
 
 
@@ -62,6 +61,18 @@ UiContainer.BeginMenu = {
                     FFVII.MenuSettings.pause_available = true
                 elseif self.position == 8 then
                     load_field_map_request( "ffvii_nmkin_2", "Spawn_elevtr1" )
+                    console( "camera_free false" )
+                    console( "debug_walkmesh false" )
+                    script:request_end_sync( Script.UI, "BeginMenu", "hide", 0 )
+                    FFVII.MenuSettings.pause_available = true
+                elseif self.position == 9 then
+                    load_field_map_request( "ffvii_tin_2", "" )
+                    console( "camera_free false" )
+                    console( "debug_walkmesh false" )
+                    script:request_end_sync( Script.UI, "BeginMenu", "hide", 0 )
+                    FFVII.MenuSettings.pause_available = true
+                elseif self.position == 10 then
+                    load_field_map_request( "debug", "" )
                     console( "camera_free false" )
                     console( "debug_walkmesh false" )
                     script:request_end_sync( Script.UI, "BeginMenu", "hide", 0 )
