@@ -12,7 +12,6 @@ UiContainer.BeginMenu = {
     on_start = function( self )
         local cursor = ui_manager:get_widget( "BeginMenu.Container.Cursor" )
         cursor:set_default_animation( "Position" .. self.position )
-		ui_manager:get_widget( "BeginMenu" ):set_visible( true )
         return 0
     end,
 
@@ -26,7 +25,7 @@ UiContainer.BeginMenu = {
                 if self.position == 1 then
                     load_field_map_request( "ffvii_md1stin", "" )
                     console( "camera_free false" )
-                    console( "debug_walkmesh false" )
+                    console( "debug_walkmesh true" )
                     script:request_end_sync( Script.UI, "BeginMenu", "hide", 0 )
                     FFVII.MenuSettings.pause_available = true
                 elseif self.position == 2 then

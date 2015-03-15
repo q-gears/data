@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <maps>
-    <map name="empty" file_name="maps/empty.xml" />
-
+  
     <map name="ffvii_startmap" file_name="maps/ffvii/field/startmap.xml" />
     <map name="ffvii_md1stin" file_name="maps/ffvii/field/md1stin.xml" />
     <map name="ffvii_md1_1" file_name="maps/ffvii/field/md1_1.xml" />
