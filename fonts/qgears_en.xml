@@ -6,7 +6,7 @@
     <char name="#" x="72" y="0" width="24" height="24" pre="0" post="-2" />
     <char name="$" x="96" y="0" width="24" height="24" pre="0" post="-5" />
     <char name="%" x="120" y="0" width="24" height="24" pre="0" post="-2" />
-    <char name="&amp" x="144" y="0" width="24" height="24" pre="0" post="-3" />
+    <char name="&amp;" x="144" y="0" width="24" height="24" pre="0" post="-3" />
     <char name="'" x="168" y="0" width="24" height="24" pre="0" post="-9" />
     <char name="(" x="192" y="0" width="24" height="24" pre="2" post="-4" />
     <char name=")" x="216" y="0" width="24" height="24" pre="2" post="-4" />
