@@ -1,0 +1,18 @@
+﻿<font name="QMenuDigits" image="fonts/qgears_digits.png" image_size="128 8" height="8">
+    <char name="0" x="0" y="0" width="7" height="8" pre="0" post="0" />
+    <char name="1" x="16" y="0" width="7" height="8" pre="0" post="0" />
+    <char name="2" x="32" y="0" width="7" height="8" pre="0" post="0" />
+    <char name="3" x="48" y="0" width="7" height="8" pre="0" post="0" />
+    <char name="4" x="64" y="0" width="7" height="8" pre="0" post="0" />
+    <char name="5" x="80" y="0" width="7" height="8" pre="0" post="0" />
+    <char name="6" x="96" y="0" width="7" height="8" pre="0" post="0" />
+    <char name="7" x="112" y="0" width="7" height="8" pre="0" post="0" />
+    <char name="8" x="128" y="0" width="7" height="8" pre="0" post="0" />
+    <char name="9" x="144" y="0" width="7" height="8" pre="0" post="0" />
+    <char name="/" x="160" y="0" width="7" height="8" pre="0" post="0" />
+	<char name="+" x="176" y="0" width="7" height="8" pre="0" post="0" />
+	<char name="*" x="192" y="0" width="7" height="8" pre="0" post="0" />
+	<char name="-" x="208" y="0" width="7" height="8" pre="0" post="0" />
+	<char name="&plusminus;" x="224" y="0" width="7" height="8" pre="0" post="0" />
+	<char name="&inf;" x="240" y="0" width="7" height="8" pre="0" post="0" />
+</font>
