@@ -21,7 +21,7 @@
         <text_area name="Text6" x="158" y="160" text_name="BeginMenu5" font="FFVIIFont" visible="true" />
         <text_area name="Text7" x="158" y="172" text_name="BeginMenu6" font="FFVIIFont" visible="true" />
         <text_area name="Text8" x="158" y="184" text_name="BeginMenu7" font="FFVIIFont" visible="true" />
-        <text_area name="Text9" x="158" y="196" text_name="BeginMenu8" font="FFVIIFont" visible="true" />
-	<text_area name="Text10" x="158" y="208" text_name="BeginMenu9" font="FFVIIFont" visible="true" />
+        <!--<text_area name="Text9" x="158" y="196" text_name="BeginMenu8" font="FFVIIFont" visible="true" />
+	    <text_area name="Text10" x="158" y="208" text_name="BeginMenu9" font="FFVIIFont" visible="true" />--->
     </widget>
 </screen>
