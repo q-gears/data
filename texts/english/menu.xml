@@ -6,9 +6,9 @@
     <text name="BeginMenu4">Idol menu</text>
     <text name="BeginMenu5">World map test</text>
     <text name="BeginMenu6">Debug Room</text>
-    <text name="BeginMenu7">North Mako Reactor Inside 2</text>
+    <text name="BeginMenu7">Debug Room HD</text>
     <text name="BeginMenu8">Midgar Train</text>
-    <text name="BeginMenu9">Debug Room HD</text>
+    <text name="BeginMenu9">North Mako Reactor Inside 2</text>
 
     <text name="PauseMenuHeader">Paused</text>
     <text name="PauseMenuText">Are you want to quit?</text>
